@@ -1,0 +1,31 @@
+
+.Single_course_item{
+    padding: 15px;
+
+}
+
+.course_img img{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.enroll a {
+    text-decoration: none;
+    font-weight: 600;
+    font-style: 9rem;
+    color: #17bf9e;
+}
+
+.lessons, .students, .rating{
+    font-style: 9rem;
+    color: #0a2b1e;
+    font-weight: 500;
+}
+
+.lessons i, .students i, .rating i{
+    font-weight: 400;
+}
+
+.course_title{
+    line-height: 2rem;
+}

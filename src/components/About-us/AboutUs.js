@@ -3,6 +3,8 @@ import './about.css'
 import { Container,Row,Col } from 'reactstrap'
 import CountUp from 'react-countup'
 import './about.css'
+import aboutImg from "../../assests/about-us.avif"
+
 
 function AboutUs() {
   return (
@@ -11,7 +13,7 @@ function AboutUs() {
         <Row>
             <Col lg='6' md='6'>
                 <div className='about__img'>
-                    <img src='' alt="" className='w-100'/>
+                    <img src={aboutImg} alt="" className='w-100'/>
                 </div>
             </Col>
             <Col lg='6' md='6'>
